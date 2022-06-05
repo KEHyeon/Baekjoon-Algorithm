@@ -1,7 +1,10 @@
 C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/2447.dir
 C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/25083.dir
+C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/12852.dir
+C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/13460.dir
 C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/24479.dir
 C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/1005.dir
+C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/12865.dir
 C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/16928.dir
 C:/Users/SW2135/Desktop/GITHUB/Baekjoon-Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
