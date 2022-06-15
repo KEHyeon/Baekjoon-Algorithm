@@ -271,6 +271,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1182.dir\build.make CMakeFiles/1182.dir/build
 .PHONY : 1182/fast
 
+#=============================================================================
+# Target rules for targets named 1931
+
+# Build rule for target.
+1931: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1931
+.PHONY : 1931
+
+# fast build rule for target.
+1931/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1931.dir\build.make CMakeFiles/1931.dir/build
+.PHONY : 1931/fast
+
 1005.obj: 1005.cpp.obj
 
 .PHONY : 1005.obj
@@ -433,6 +446,33 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\16928.dir\build.make CMakeFiles/16928.dir/16928.cpp.s
 .PHONY : 16928.cpp.s
 
+1931.obj: 1931.cpp.obj
+
+.PHONY : 1931.obj
+
+# target to build an object file
+1931.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1931.dir\build.make CMakeFiles/1931.dir/1931.cpp.obj
+.PHONY : 1931.cpp.obj
+
+1931.i: 1931.cpp.i
+
+.PHONY : 1931.i
+
+# target to preprocess a source file
+1931.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1931.dir\build.make CMakeFiles/1931.dir/1931.cpp.i
+.PHONY : 1931.cpp.i
+
+1931.s: 1931.cpp.s
+
+.PHONY : 1931.s
+
+# target to generate assembly for a file
+1931.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1931.dir\build.make CMakeFiles/1931.dir/1931.cpp.s
+.PHONY : 1931.cpp.s
+
 2447.obj: 2447.cpp.obj
 
 .PHONY : 2447.obj
@@ -582,6 +622,7 @@ help:
 	@echo ... 12865
 	@echo ... 13460
 	@echo ... 16928
+	@echo ... 1931
 	@echo ... 2447
 	@echo ... 24479
 	@echo ... 25083
@@ -605,6 +646,9 @@ help:
 	@echo ... 16928.obj
 	@echo ... 16928.i
 	@echo ... 16928.s
+	@echo ... 1931.obj
+	@echo ... 1931.i
+	@echo ... 1931.s
 	@echo ... 2447.obj
 	@echo ... 2447.i
 	@echo ... 2447.s
