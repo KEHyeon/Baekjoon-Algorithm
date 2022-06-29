@@ -9,7 +9,7 @@ long long int price[100000];
 int main() {
     cin >> n;
     for(int i = 0; i < n - 1; i++) {
-        cin >> price[i];
+        cin >s> price[i];
 
     }
     for(int i = 0; i < n; i++) {
