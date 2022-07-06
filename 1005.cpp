@@ -30,7 +30,7 @@ int main() {
 					dp[nxt] = dp[cur];
 					isUsed[nxt] = 1;
 				}
-				indegree[nxt]--;
+				indegree[nxt]-=1;
 				if(indegree[nxt] == 0) q.push(nxt);
 			}
 		}
