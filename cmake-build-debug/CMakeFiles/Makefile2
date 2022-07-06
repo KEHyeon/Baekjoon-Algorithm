@@ -86,6 +86,7 @@ all: CMakeFiles/12865.dir/all
 all: CMakeFiles/16928.dir/all
 all: CMakeFiles/9613.dir/all
 all: CMakeFiles/2512.dir/all
+all: CMakeFiles/16724.dir/all
 all: CMakeFiles/1182.dir/all
 all: CMakeFiles/1931.dir/all
 all: CMakeFiles/1541.dir/all
@@ -121,6 +122,7 @@ clean: CMakeFiles/12865.dir/clean
 clean: CMakeFiles/16928.dir/clean
 clean: CMakeFiles/9613.dir/clean
 clean: CMakeFiles/2512.dir/clean
+clean: CMakeFiles/16724.dir/clean
 clean: CMakeFiles/1182.dir/clean
 clean: CMakeFiles/1931.dir/clean
 clean: CMakeFiles/1541.dir/clean
@@ -169,7 +171,7 @@ CMakeFiles/12862.dir/clean:
 CMakeFiles/1789.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1789.dir\build.make CMakeFiles/1789.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1789.dir\build.make CMakeFiles/1789.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target 1789"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target 1789"
 .PHONY : CMakeFiles/1789.dir/all
 
 # Build rule for subdir invocation for target.
@@ -196,7 +198,7 @@ CMakeFiles/1789.dir/clean:
 CMakeFiles/2447.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2447.dir\build.make CMakeFiles/2447.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2447.dir\build.make CMakeFiles/2447.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target 2447"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target 2447"
 .PHONY : CMakeFiles/2447.dir/all
 
 # Build rule for subdir invocation for target.
@@ -223,7 +225,7 @@ CMakeFiles/2447.dir/clean:
 CMakeFiles/2217.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2217.dir\build.make CMakeFiles/2217.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2217.dir\build.make CMakeFiles/2217.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target 2217"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target 2217"
 .PHONY : CMakeFiles/2217.dir/all
 
 # Build rule for subdir invocation for target.
@@ -250,7 +252,7 @@ CMakeFiles/2217.dir/clean:
 CMakeFiles/25083.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25083.dir\build.make CMakeFiles/25083.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\25083.dir\build.make CMakeFiles/25083.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target 25083"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target 25083"
 .PHONY : CMakeFiles/25083.dir/all
 
 # Build rule for subdir invocation for target.
@@ -358,7 +360,7 @@ CMakeFiles/13460.dir/clean:
 CMakeFiles/24479.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\24479.dir\build.make CMakeFiles/24479.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\24479.dir\build.make CMakeFiles/24479.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target 24479"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target 24479"
 .PHONY : CMakeFiles/24479.dir/all
 
 # Build rule for subdir invocation for target.
@@ -385,7 +387,7 @@ CMakeFiles/24479.dir/clean:
 CMakeFiles/4796.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4796.dir\build.make CMakeFiles/4796.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4796.dir\build.make CMakeFiles/4796.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target 4796"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target 4796"
 .PHONY : CMakeFiles/4796.dir/all
 
 # Build rule for subdir invocation for target.
@@ -466,7 +468,7 @@ CMakeFiles/12865.dir/clean:
 CMakeFiles/16928.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\16928.dir\build.make CMakeFiles/16928.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\16928.dir\build.make CMakeFiles/16928.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 16928"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 16928"
 .PHONY : CMakeFiles/16928.dir/all
 
 # Build rule for subdir invocation for target.
@@ -493,7 +495,7 @@ CMakeFiles/16928.dir/clean:
 CMakeFiles/9613.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9613.dir\build.make CMakeFiles/9613.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\9613.dir\build.make CMakeFiles/9613.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target 9613"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target 9613"
 .PHONY : CMakeFiles/9613.dir/all
 
 # Build rule for subdir invocation for target.
@@ -520,7 +522,7 @@ CMakeFiles/9613.dir/clean:
 CMakeFiles/2512.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2512.dir\build.make CMakeFiles/2512.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2512.dir\build.make CMakeFiles/2512.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target 2512"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target 2512"
 .PHONY : CMakeFiles/2512.dir/all
 
 # Build rule for subdir invocation for target.
@@ -539,6 +541,33 @@ CMakeFiles/2512.dir/rule: cmake_check_build_system
 CMakeFiles/2512.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2512.dir\build.make CMakeFiles/2512.dir/clean
 .PHONY : CMakeFiles/2512.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/16724.dir
+
+# All Build rule for target.
+CMakeFiles/16724.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16724.dir\build.make CMakeFiles/16724.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16724.dir\build.make CMakeFiles/16724.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 16724"
+.PHONY : CMakeFiles/16724.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/16724.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/16724.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/16724.dir/rule
+
+# Convenience name for target.
+16724: CMakeFiles/16724.dir/rule
+
+.PHONY : 16724
+
+# clean rule for target.
+CMakeFiles/16724.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16724.dir\build.make CMakeFiles/16724.dir/clean
+.PHONY : CMakeFiles/16724.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/1182.dir
@@ -574,7 +603,7 @@ CMakeFiles/1182.dir/clean:
 CMakeFiles/1931.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1931.dir\build.make CMakeFiles/1931.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1931.dir\build.make CMakeFiles/1931.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target 1931"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target 1931"
 .PHONY : CMakeFiles/1931.dir/all
 
 # Build rule for subdir invocation for target.
@@ -709,7 +738,7 @@ CMakeFiles/11000.dir/clean:
 CMakeFiles/5585.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5585.dir\build.make CMakeFiles/5585.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5585.dir\build.make CMakeFiles/5585.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target 5585"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target 5585"
 .PHONY : CMakeFiles/5585.dir/all
 
 # Build rule for subdir invocation for target.
@@ -736,7 +765,7 @@ CMakeFiles/5585.dir/clean:
 CMakeFiles/2670.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2670.dir\build.make CMakeFiles/2670.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2670.dir\build.make CMakeFiles/2670.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target 2670"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target 2670"
 .PHONY : CMakeFiles/2670.dir/all
 
 # Build rule for subdir invocation for target.
@@ -763,7 +792,7 @@ CMakeFiles/2670.dir/clean:
 CMakeFiles/7579.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7579.dir\build.make CMakeFiles/7579.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7579.dir\build.make CMakeFiles/7579.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target 7579"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target 7579"
 .PHONY : CMakeFiles/7579.dir/all
 
 # Build rule for subdir invocation for target.
@@ -790,7 +819,7 @@ CMakeFiles/7579.dir/clean:
 CMakeFiles/17413.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17413.dir\build.make CMakeFiles/17413.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17413.dir\build.make CMakeFiles/17413.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 17413"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target 17413"
 .PHONY : CMakeFiles/17413.dir/all
 
 # Build rule for subdir invocation for target.
@@ -817,7 +846,7 @@ CMakeFiles/17413.dir/clean:
 CMakeFiles/20040.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\20040.dir\build.make CMakeFiles/20040.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\20040.dir\build.make CMakeFiles/20040.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target 20040"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\SW2135\Desktop\GITHUB\Baekjoon-Algorithm\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target 20040"
 .PHONY : CMakeFiles/20040.dir/all
 
 # Build rule for subdir invocation for target.
