@@ -15,7 +15,7 @@ int search(int x) {
 int main() {
     cin >> n;
     for(int i = 0; i < n; i++) cin >> arr[i];
-    ans.push_back(24);
+    ans.push_back(10000);
     ans.push_back(arr[0]);
     for(int i = 1; i < n ; i++) {
         if(ans[ans.size() - 1] < arr[i]) ans.push_back(arr[i]);
@@ -23,5 +23,8 @@ int main() {
             ans[search(arr[i])] = arr[i];
         }
     }
-    cout << ans.size() - 1;
+    cout << ans.size() - 1 << "\n";
+    for(int i = 1; i < ans.size(); i++) {
+        cout << ans[i] << " ";
+    }
 }
