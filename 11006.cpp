@@ -1,18 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
-int tc, n, arr[500], memo[500][500];
-
+int tc, n, arr[500], memo[500][500], sum[501];
+int solve(int a, int b) {
+    if(a == b) return 0;
+    int &ret = memo[a][b];
+    if(ret != 0) return ret;
+    ret = 123456789;
+    for(int i = a; i < b; i++) {
+        ret = min(ret, solve(a, i) + solve(i + 1, b));
+    }
+    return ret += sum[b + 1] - sum[a];
+}
 int main() {
     cin >> tc;
     while(tc--) {
-        cin >> n;
-        for(int i = 0; i < n; i++) cin >> arr[i];
         memset(memo, 0, sizeof(memo));
-        memo[0] = arr[0];
-        memo[1] = arr[0] + arr[1];
-        for(int i = 2; i < n; i++) {
-            memo[i] = min(( arr[i] + arr[i - 1]) * 2 + memo[i - 2], arr[i] + memo[i - 1]);
+        cin >> n;
+        for(int i = 0; i < n; i++) {
+            cin >> arr[i];
+            sum[i + 1] = sum[i] + arr[i];
         }
-        cout << memo[n - 1] << "\n";
+        cout << solve(0, n - 1) << "\n";
     }
 }
