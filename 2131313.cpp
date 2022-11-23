@@ -1,19 +1,39 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-int n;
-int arr[100000];
-int cnt[100000];
+int n, m, c;
+int parent[100001];
+int country[100001];
+int getParent(int node) {
+    if(parent[node] == node || parent[node] < 0) return parent[node];
+    int p = getParent(parent[node]);
+    parent[node] = p;
+    return p;
+}
+
+void Merge(int a, int b) {
+    int ap = getParent(a);
+    int bp = getParent(b);
+    if(a > b) {
+        parent[bp] = ap;
+    }
+    else parent[ap] = bp;
+}
 int main() {
     cin >> n;
-    for(int i = 0; i < n; i++) {
-        cin >> arr[i];
+    cin >> m;
+    for(int i = 1; i <= n; i++) parent[i] = i;
+    while(m--){
+        int a, b; cin >> a >> b;
+        Merge(a, b);
     }
-    memset(cnt, 1000000, sizeof(cnt));
-    cnt[0] = 0;
-    for(int i = 1; i < n - 1; i++) {
-        cnt[i + 1] = min(cnt[i + 1], cnt[i] + 1);
-        if(i + arr[i] < n) cnt[i + arr[i]] = min(cnt[i + arr[i]], cnt[i] + 1);
+    cin >> c;
+    while(c--) {
+        int a, b; cin >> a >> b;
+        int ap = getParent(a);
+        country[ap] = b;
     }
-    cout << cnt[n - 1];
+    for(int i = 1; i <= n; i++) {
+        if(country[getParent(i)] == 0) cout << 0 << " ";
+        else cout << country[getParent(i)] << " ";
+    }
 }
