@@ -1,24 +1,35 @@
 #include <bits/stdc++.h>
 using namespace std;
 int n, m, sum;
-int b[100];
+int capa[100];
 int c[100];
 int dp[100][10001];
-int min(int a, int b) {
-    return a > b ? b : a;
-}
-int f(int num, int now,int s) {
-    if(s >= m) return now;
-    if(num < 0) return -123456789;
-    if(dp[num][now]) return dp[num][now];
-    return dp[num][now] = max(f(num-1,now-c[num], s + b[num]), f(num - 1, now, s));
+int csum;
+const int MIN = -1234567890;
+int solve(int start, int cur) {
+    if(cur < 0) return MIN;
+    if(start == n) {
+        if(cur == 0) return 0;
+        else return MIN;
+    }
+    int &ret = dp[start][cur];
+    if(ret != -1) return ret;
+    ret = max(ret, capa[start] + solve(start + 1, cur - c[start]));
+    ret = max(ret, solve(start + 1, cur));
+    return ret;
 }
 int main() {
     cin >> n >> m;
-    for(int i = 0; i < n; i++) cin >> b[i];
+    for(int i = 0; i < n; i++) cin >> capa[i];
     for(int i = 0; i < n; i++) {
         cin >> c[i];
-        sum += c[i];
+        csum += c[i];
     }
-    cout << sum - f(n - 1, sum, 0);
+    memset(dp, -1, sizeof(dp));
+    for(int i = 0; i <= csum; i++) {
+        if(solve(0, i) >= m) {
+            cout << i;
+            return 0;
+        }
+    }
 }
