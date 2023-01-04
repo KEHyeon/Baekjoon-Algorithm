@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-int a, b, c, num;
+int a, b, c, num = 1;
 int main() {
-    cin >> a >> b >> c;
-    while(a != 0 && b != 0 && c != 0) {
-        cout << "Case " << num << ""
+    while(1) {
         cin >> a >> b >> c;
-
+        if(a == 0) break;
+        cout << "Case " << num++ << ": ";
+        cout <<  (c / b) * a + min(c % b, a) << "\n";
     }
 }
