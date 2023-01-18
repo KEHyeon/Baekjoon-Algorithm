@@ -46,7 +46,7 @@ pair<pair<int,int>,pair<int,int>> go(pair<int,int> r, pair<int,int> b, int dir) 
     return {r, b};
 }
 int main() {
-    cin >> n >> m;
+    cin >> n >>  m;
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < m; j++) {
             cin >> board[i][j];
