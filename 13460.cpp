@@ -1,14 +1,15 @@
 #include <bits/stdc++.h>
 #define X first
 #define Y second
+#define pii pair<int,int>
 using namespace std;
 int n, m;
 bool flag;
-pair<int,int> red, blue, hole;
+pii red, blue, hole;
 char board[11][11];
 int dx[4] = {0, 0, -1, 1};
 int dy[4] = {1, -1, 0, 0};
-pair<pair<int,int>,pair<int,int>> go(pair<int,int> r, pair<int,int> b, int dir) {
+pair<pii,pii> go(pii r, pii b, int dir) {
     while(1) {
         int rnx = r.X + dx[dir];
         int rny = r.Y + dy[dir];
@@ -50,18 +51,12 @@ int main() {
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < m; j++) {
             cin >> board[i][j];
-            if(board[i][j] == 'R') {
-                red = {i, j };
-                board[i][j] = '.';
-            }
-            if(board[i][j] == 'B') {
-                blue = {i, j };
-                board[i][j] = '.';
-            }
+            if(board[i][j] == 'R') red = {i, j };
+            if(board[i][j] == 'B')  blue = {i, j };
             if(board[i][j] == 'O') hole = {i, j};
         }
     }
-    queue<tuple<pair<int,int>, pair<int,int>, int>> q;
+    queue<tuple<pii, pii, int>> q;
     q.push({red, blue, 0});
     while(!q.empty()) {
         auto [curR, curB, cnt] = q.front();
