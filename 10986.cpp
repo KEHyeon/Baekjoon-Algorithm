@@ -1,19 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
-int n, m, ans;
-int arr[1000001];
-long long ps[1000001];
+long long int n, m, ans;
+int mod[1000001];
+long long int cnt[1000];
 int main() {
 	cin >> n >> m;
-	for(int i = 1; i <= n; i++) {
-		cin >> arr[i];
-		for(int j = 1;  j <= i; j++) {
-			ps[j] = ps[j] + arr[i];
-			if(ps[j] % m == 0) ans++;
-		}
-	}
-	for(int i = 1; i <= n; i++) {
-		cout << ps[i] << " ";
-	}
-	cout << ans;
+    for(int i = 1; i <= n; i++) {
+        int x; cin >> x;
+        mod[i] = (mod[i - 1] + x) % m;
+        cnt[mod[i]]++;
+    }
+    cnt[0]++;
+    for(int i = 0; i < m; i++) {
+        if(cnt[i] >= 2) {
+            ans += (cnt[i] * (cnt[i] - 1)) / 2;
+        }
+    }
+    cout << ans;
 }
