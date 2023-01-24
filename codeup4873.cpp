@@ -1,49 +1,40 @@
 #include <bits/stdc++.h>
 using namespace std;
-int n, q;
-int parent[200001];
-vector<int> tree[200001];
-
-void dfs(int node,int p) {
-    parent[node] = p;
-    for(auto nxt : tree[node]) {
-        if(parent[nxt] == -1) continue;
-        dfs(nxt, p);
-    }
-}
-
-int getParent(int node) {
-    if(parent[node] == -1) return node;
-    return parent[node] = getParent(parent[node]);
-}
-
+int arr[200000];
 int main() {
-    ios_base :: sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-    cin >> n >> q;
-    for(int i = 1; i <= n; i++) parent[i] = -1;
-    for(int i = 1; i < n; i++) {
-        int x; cin >> x;
-        tree[x].push_back(i + 1);
-        parent[i + 1] = x;
-    }
-    while(q--) {
-        int a, b, c; cin >> a >> b >> c;
-        string ans;
-        if(getParent(a) == getParent(b)) ans = "YES";
-        else ans = "NO";
-        if(c) {
-            if(ans == "YES" && parent[a] != -1) {
-                dfs(a, a);
-                parent[a] = -1;
+    int tc; cin >> tc;
+    while(tc--) {
+        int a1, a2, a3, a4; cin >> a1 >> a2 >> a3 >> a4;
+        if(a1 == 0) {
+            cout << (a2 || a3 || a4);
+        }
+        else if(a2 == 0 && a3 == 0) {
+            cout << a1 + min(a1 + 1, a4);
+        }
+        else if(a3 == 0 || a2 == 0){
+            int aa = min(a3, a2);
+            if(a4) {
+                if(a1 >= a3) {
+                    cout << a1 + a3 + 1;
+                }
+                else cout << a1 + a1 + 1;
             }
-            else if(ans == "NO" && parent[b] != -1){
-                dfs(b, b);
-                parent[b] = -1;
+            else {
+                if(a1 > a3) {
+                    cout << a1 + a3;
+                }
+                else cout << a1 + a1;
             }
         }
-        cout << ans << "\n";
+        else {
+            int ans = a1 + min(a2, a3) * 2 + min(abs(a2 - a3), a1);
+            if(a4) {
+                cout << ans + 1;
+            }
+            else {
+                cout << ans;
+            }
+        }
+        cout << '\n';
     }
 }
-
