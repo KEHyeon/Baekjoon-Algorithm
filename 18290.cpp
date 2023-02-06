@@ -29,7 +29,7 @@ void bt(int num) {
 			}
 			if(flag) continue;
 		}
-		
+
 		per.push_back(i);
 		vis[i / m][i % m] = 1;
 		bt(i + 1);

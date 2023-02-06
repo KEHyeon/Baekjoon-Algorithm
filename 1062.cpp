@@ -4,6 +4,7 @@ int n, k, ans;
 vector<string> str(50);
 bool isUsed[26];
 void bt(int s, int depth) {
+    cout << depth << "\n";
     if(depth == k) {
         int cnt = 0;
         for(int i = 0; i < n; i++) {

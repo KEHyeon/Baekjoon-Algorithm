@@ -1,17 +1,29 @@
 #include <bits/stdc++.h>
+#define pii pair<int,int>
+#define X first
+#define Y second
 using namespace std;
-int n, arr[1000000], f[1000000];
-
-stack<int> st;
+int n, f[1000001];
+int ans[1000000];
+stack<pair<int,int>> st;
+queue<int> num;
 int main() {
     cin >> n;
     for(int i = 0; i < n; i++) {
-        cin >> arr[i];
-        f[arr[i]]++;
+        int x; cin >> x;
+        f[x]++;
+        num.push(x);
     }
-    for(int i = n - 1; i >= 0; i--) {
-        if(st.empty())
-        st.push(arr[i]);
-
+    for(int i = 0; i < n; i++) {
+        int x = num.front(); num.pop();
+        while(!st.empty() && f[st.top().X] < f[x]) {
+            ans[st.top().Y] = x;
+            st.pop();
+        }
+        st.push({x, i});
+    }
+    for(int i = 0; i < n; i++) {
+        if(ans[i] == 0) cout << -1 << " ";
+        else cout << ans[i] << " ";
     }
 }
