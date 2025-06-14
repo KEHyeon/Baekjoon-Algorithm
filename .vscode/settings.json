@@ -4,6 +4,7 @@
         "stdexcept": "cpp",
         "__locale": "cpp",
         "string": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "sstream": "cpp"
     }
 }
